@@ -4,4 +4,4 @@ This GitHub organization hosts code, presentations and other resources created b
 
 # Contact
 
-Please contact Jessica Lavery (<laveryj@mskcc.org>) and Daniel Sjoberg (<sjobergd@mskcc.org>) with questions.
+Please contact Jessica Lavery (<laveryj@mskcc.org>) and Daniel Sjoberg (<sjobergd@mskcc.org>) with any questions.
