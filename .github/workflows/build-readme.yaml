@@ -23,7 +23,7 @@ jobs:
         run: Rscript -e 'install.packages(pkgs = c("rmarkdown", "dplyr", "tidyr", "stringr", "purrr", "knitr", "gh", "cranlogs"), repos = "http://cran.rstudio.com/", type = "source")'
                         
       - name: Build Readme
-        run: Rscript -e 'rmarkdown::render("README.Rmd", output_format = "md_document")'
+        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document")'
       - name: Commit files
         run: |
           git config --global user.email "ghau@example.com"
