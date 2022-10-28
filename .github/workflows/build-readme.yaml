@@ -20,7 +20,7 @@ jobs:
           use-public-rspm: true
           
       - name: Install packages
-        run: Rscript -e 'install.packages(pkgs = c("dplyr", "tidyr", "stringr", "purrr", "knitr", "gh", "cranlogs"), repos = "http://cran.rstudio.com/"", type = "source")'
+        run: Rscript -e 'install.packages(pkgs = c("dplyr", "tidyr", "stringr", "purrr", "knitr", "gh", "cranlogs"), repos = "http://cran.rstudio.com/", type = "source")'
                         
       - name: Build Readme
         run: Rscript -e 'install.packages(pkgs = ".", repos = NULL, type = "source")'
