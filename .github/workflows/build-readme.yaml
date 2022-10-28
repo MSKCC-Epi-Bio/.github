@@ -19,9 +19,8 @@ jobs:
         with:
           use-public-rspm: true
           
-      - name: Install packages
-        run: Rscript -e 'install.packages(pkgs = c("rmarkdown", "dplyr", "tidyr", "stringr", "purrr", "knitr", "gh", "cranlogs"), repos = "http://cran.rstudio.com/", type = "source")'
-                        
+      - uses: r-lib/actions/setup-r-dependencies@v2    
+      
       - name: Build Readme
         run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document")'
       - name: Commit files
