@@ -6,7 +6,8 @@ on:
     - cron: "0 0 * * 0"
   pull_request:
     branches: [main, master]
-name: build-readme
+
+
 jobs:
   build-readme:
     runs-on: ubuntu-latest
