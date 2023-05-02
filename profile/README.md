@@ -36,7 +36,7 @@ of SAS macros for common tasks such as creating a Table 1
 
 | Package                                             | GitHub Stars | Last Updated | About                                                                                                                |
 |:----------------------------------------------------|:------------:|:------------:|:---------------------------------------------------------------------------------------------------------------------|
-| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      4       |  10/28/2022  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
+| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      13       |  03/10/2023  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
 
 ------------------------------------------------------------------------
 
