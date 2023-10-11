@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "0 10 11 * * WED"
+    - cron: "0 30 11 * * WED"
   pull_request:
     branches: [main, master]
 
