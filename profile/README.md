@@ -3,9 +3,9 @@
 
 # **MSKCC-Epi-Bio**
 
-This GitHub organization hosts code, presentations and other resources
-created by members of Memorial Sloan Kettering’s Department of
-Epidemiology & Biostatistics.
+*Updated 2023-10-11 11:15:56* This GitHub organization hosts code,
+presentations and other resources created by members of Memorial Sloan
+Kettering’s Department of Epidemiology & Biostatistics.
 
 The repositories in this organization provide resources for implementing
 competing risks survival analyses
@@ -36,7 +36,7 @@ of SAS macros for common tasks such as creating a Table 1
 
 | Package                                             | GitHub Stars | Last Updated | About                                                                                                                |
 |:----------------------------------------------------|:------------:|:------------:|:---------------------------------------------------------------------------------------------------------------------|
-| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      14      |  09/12/2023  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
+| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      15      |  09/12/2023  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
 
 
 ------------------------------------------------------------------------
