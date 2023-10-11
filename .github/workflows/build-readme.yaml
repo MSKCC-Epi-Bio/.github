@@ -33,8 +33,8 @@ jobs:
           git push origin HEAD:refs/heads/master --force
           
       - name: Rename new_readme.md to README.md
-        run: mv profile/new_readme.md profile/README.md
-# 
+        run: mv new_readme.md README.md
+
 # jobs:
 #   build-readme:
 #     runs-on: ubuntu-latest
