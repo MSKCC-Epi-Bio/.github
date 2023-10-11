@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "35 15 * * 3"
+    - cron: "40 15 * * 3"
   pull_request:
     branches: [main, master]
 
@@ -49,7 +49,7 @@ jobs:
           ls -R profile/
       - name: Check File Existence
         run: |
-          if [ -f .github/profile/new_readme.md ]; then
+          if [ -f profile/new_readme.md ]; then
             echo "File exists, proceed with renaming."
           else
             echo "File does not exist, check the rendering step."
