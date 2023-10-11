@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -31,55 +33,15 @@ pat <- switch(!pat == "", pat)
 msk_repos = 
   gh::gh("GET /users/{username}/repos", username = "MSKCC-Epi-Bio", .token = pat)
 
-fct_repo_name = 
-  function(x){
-    msk_repos[[x]]$name
-  }
-
-fct_repo_lang = 
-  function(x){
-    msk_repos[[x]]$language
-  }
-
-fct_repo_forks = 
-  function(x){
-    msk_repos[[x]]$forks
-  }
-
-fct_repo_updated = 
-  function(x){
-    msk_repos[[x]]$pushed_at
-  }
-
-fct_repo_topics = 
-  function(x){
-    msk_repos[[x]]$topics
-  }
-
-fct_repo_stars = 
-  function(x){
-    msk_repos[[x]]$stargazers_count
-  }
-
-fct_repo_url = 
-  function(x){
-    msk_repos[[x]]$html_url
-  }
-
-fct_repo_about = 
-  function(x){
-    msk_repos[[x]]$description
-  }
-
 df_repos =   
   tibble(
-    name = map(.x = c(1:length(msk_repos)), ~fct_repo_name(.x)),
-    url = map(.x = c(1:length(msk_repos)), ~fct_repo_url(.x)),
-    language = map(.x = c(1:length(msk_repos)), ~fct_repo_lang(.x)),
-    stars = map(.x = c(1:length(msk_repos)), ~fct_repo_stars(.x)),
-    updated_date = map(.x = c(1:length(msk_repos)), ~fct_repo_updated(.x)),
-    about = map(.x = c(1:length(msk_repos)), ~fct_repo_about(.x)),
-    topic = map(.x = c(1:length(msk_repos)), ~fct_repo_topics(.x))
+    name = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$name),
+    url = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$html_url),
+    language = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$language),
+    stars = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$stargazers_count),
+    updated_date = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$pushed_at),
+    about = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$description),
+    topic = map(.x = c(1:length(msk_repos)), ~msk_repos[[.x]]$topics)
   ) %>% 
   tidyr::unnest(
     cols = everything()

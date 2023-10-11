@@ -25,10 +25,10 @@ of SAS macros for common tasks such as creating a Table 1
 
 | Package                                                           | CRAN Downloads (All-Time) | GitHub Stars | Last Updated | About                                                                                     |
 |:------------------------------------------------------------------|:-------------------------:|:------------:|:------------:|:------------------------------------------------------------------------------------------|
-| [gnomeR](https://github.com/MSKCC-Epi-Bio/gnomeR)                 |                           |      19      |  10/28/2022  | Package to wrangle and visualize genomic data in R                                        |
-| [PROscorerTools](https://github.com/MSKCC-Epi-Bio/PROscorerTools) |           21736           |      1       |  03/07/2022  | Tools to Score Patient-Reported Outcome (PRO) Measures and Other Psychometric Instruments |
-| [SvyNom](https://github.com/MSKCC-Epi-Bio/SvyNom)                 |           35549           |      0       |  04/28/2022  |                                                                                           |
-| [tidycmprsk](https://github.com/MSKCC-Epi-Bio/tidycmprsk)         |           18280           |      14      |  10/28/2022  |                                                                                           |
+| [gnomeR](https://github.com/MSKCC-Epi-Bio/gnomeR)                 |                           |      25      |  10/10/2023  | Package to wrangle and visualize genomic data in R                                        |
+| [PROscorerTools](https://github.com/MSKCC-Epi-Bio/PROscorerTools) |           24350           |      1       |  03/07/2022  | Tools to Score Patient-Reported Outcome (PRO) Measures and Other Psychometric Instruments |
+| [SvyNom](https://github.com/MSKCC-Epi-Bio/SvyNom)                 |           37994           |      0       |  04/28/2022  |                                                                                           |
+| [tidycmprsk](https://github.com/MSKCC-Epi-Bio/tidycmprsk)         |           59511           |      19      |  07/15/2023  |                                                                                           |
 
 ------------------------------------------------------------------------
 
@@ -36,7 +36,8 @@ of SAS macros for common tasks such as creating a Table 1
 
 | Package                                             | GitHub Stars | Last Updated | About                                                                                                                |
 |:----------------------------------------------------|:------------:|:------------:|:---------------------------------------------------------------------------------------------------------------------|
-| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      13       |  03/10/2023  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
+| [dcurves](https://github.com/MSKCC-Epi-Bio/dcurves) |      14      |  09/12/2023  | Python package for Andrew Vickers’ Decision Curve Analysis method to evaluate prediction models and diagnostic tests |
+
 
 ------------------------------------------------------------------------
 
@@ -56,7 +57,7 @@ of SAS macros for common tasks such as creating a Table 1
 | [contributing-to-an-R-pkg](https://github.com/MSKCC-Epi-Bio/contributing-to-an-R-pkg)                                         |      0       |  04/04/2022  |       |
 | [introduction-to-msk-impact](https://github.com/MSKCC-Epi-Bio/introduction-to-msk-impact)                                     |      0       |  09/06/2022  |       |
 | [Reproducibility-in-R-with-renv-and-templates](https://github.com/MSKCC-Epi-Bio/Reproducibility-in-R-with-renv-and-templates) |      3       |  05/13/2022  |       |
-| [Writing-Function-with-the-tidyverse](https://github.com/MSKCC-Epi-Bio/Writing-Function-with-the-tidyverse)                   |      2       |  02/15/2022  |       |
+| [Writing-Functions-with-the-tidyverse](https://github.com/MSKCC-Epi-Bio/Writing-Functions-with-the-tidyverse)                 |      4       |  11/01/2022  |       |
 
 ------------------------------------------------------------------------
 
