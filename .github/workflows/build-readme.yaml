@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "55 13 * * 3"
+    - cron: "0 14 * * 3"
   pull_request:
     branches: [main, master]
 
@@ -23,7 +23,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2    
       
       - name: Build Readme
-        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = I("new_readme"))'
+        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = I("profile/new_readme.md"))'
       - name: Commit files
         run: |
           git config --global user.email "ghau@example.com"
@@ -33,7 +33,7 @@ jobs:
           git push origin HEAD:refs/heads/master --force
           
       - name: Rename new_readme.md to README.md
-        run: mv new_readme.md README.md
+        run: mv profile/new_readme.md profile/README.md
 # 
 # jobs:
 #   build-readme:
