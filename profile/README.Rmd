@@ -24,6 +24,8 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(purrr)
+
+Sys.time()
 ```
 
 ```{r scrape data}
