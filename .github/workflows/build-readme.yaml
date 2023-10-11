@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "00 15 * * 3"
+    - cron: "15 15 * * 3"
   pull_request:
     branches: [main, master]
 
@@ -23,7 +23,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2    
       
       - name: Build Readme
-        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "profile/new_readme.md", output_dir = ".github")'
+        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "new_readme.md", output_dir = "profile")'
       - name: Commit files
         run: |
           git config --global user.email "ghau@example.com"
