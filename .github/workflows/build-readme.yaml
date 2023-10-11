@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "25 15 * * 3"
+    - cron: "35 15 * * 3"
   pull_request:
     branches: [main, master]
 
@@ -25,7 +25,7 @@ jobs:
       - name: Debugging - List Files
         run: |
           # List the files in the current directory
-          ls
+          ls -R profile/
       
       - name: Build Readme
         run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "new_readme.md", output_dir = "profile")'
@@ -33,7 +33,7 @@ jobs:
       - name: Debugging - List Files After Rendering
         run: |
           # List the files after rendering
-          ls
+          ls -R profile/
 
       - name: Commit files
         run: |
@@ -46,10 +46,17 @@ jobs:
       - name: Debugging - List Files After Commit
         run: |
           # List the files after committing
-          ls
-          
+          ls -R profile/
+      - name: Check File Existence
+        run: |
+          if [ -f .github/profile/new_readme.md ]; then
+            echo "File exists, proceed with renaming."
+          else
+            echo "File does not exist, check the rendering step."
+            exit 1
+          fi
       - name: Rename new_readme.md to README.md
-        run: mv .github/profile/new_readme.md .github/profile/README.md
+        run: mv profile/new_readme.md profile/README.md
 
 # jobs:
 #   build-readme:
