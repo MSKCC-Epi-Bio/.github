@@ -100,7 +100,7 @@ df_repos_fin =
 
 # **MSKCC-Epi-Bio**
 
-This GitHub organization hosts code, presentations and other resources created by members of Memorial Sloan Kettering's Department of Epidemiology & Biostatistics.
+*Updated `r as.character(Sys.time())`* This GitHub organization hosts code, presentations and other resources created by members of Memorial Sloan Kettering's Department of Epidemiology & Biostatistics.
 
 The repositories in this organization provide resources for implementing competing risks survival analyses ([tidycmprsk](https://github.com/MSKCC-Epi-Bio/tidycmprsk)) and analyzing genomic data ([gnomeR](https://github.com/MSKCC-Epi-Bio/gnomeR)) and patient-reported outcomes ([PROscorerTools](https://github.com/MSKCC-Epi-Bio/PROscorerTools)) in R, implementing decision curves in python ([dcurves](https://github.com/MSKCC-Epi-Bio/dcurves)), as well as a set of SAS macros for common tasks such as creating a Table 1 ([msk_SAS_macros](https://github.com/MSKCC-Epi-Bio/msk_SAS_macros)). 
 
@@ -109,8 +109,6 @@ The repositories in this organization provide resources for implementing competi
 ## **R Packages**
 
 ```{r packages}
-Sys.time()
-
 # R packages table:
 
 df_repos_fin %>% 
