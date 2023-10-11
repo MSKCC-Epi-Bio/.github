@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "08 14 * * 3"
+    - cron: "45 15 * * 3"
   pull_request:
     branches: [main, master]
 
@@ -22,8 +22,19 @@ jobs:
           
       - uses: r-lib/actions/setup-r-dependencies@v2    
       
+      - name: Debugging - List Files
+        run: |
+          # List the files in the current directory
+          ls -R profile/
+      
       - name: Build Readme
-        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = I("new_readme.md"), output_dir = ".github/profile")'
+        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "new_readme.md", output_dir = "profile")'
+
+      - name: Debugging - List Files After Rendering
+        run: |
+          # List the files after rendering
+          ls -R profile/
+
       - name: Commit files
         run: |
           git config --global user.email "ghau@example.com"
@@ -32,9 +43,21 @@ jobs:
           git commit -am "chronjob"
           git push origin HEAD:refs/heads/master --force
           
+      - name: Debugging - List Files After Commit
+        run: |
+          # List the files after committing
+          ls -R profile/
+      - name: Check File Existence
+        run: |
+          if [ -f profile/new_readme.md ]; then
+            echo "File exists, proceed with renaming."
+          else
+            echo "File does not exist, check the rendering step."
+            exit 1
+          fi
       - name: Rename new_readme.md to README.md
         run: mv profile/new_readme.md profile/README.md
-# 
+
 # jobs:
 #   build-readme:
 #     runs-on: ubuntu-latest
