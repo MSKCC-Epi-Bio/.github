@@ -24,8 +24,6 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 library(purrr)
-
-Sys.time()
 ```
 
 ```{r scrape data}
@@ -111,6 +109,8 @@ The repositories in this organization provide resources for implementing competi
 ## **R Packages**
 
 ```{r packages}
+Sys.time()
+
 # R packages table:
 
 df_repos_fin %>% 
