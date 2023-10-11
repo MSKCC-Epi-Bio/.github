@@ -49,7 +49,7 @@ jobs:
           ls
           
       - name: Rename new_readme.md to README.md
-        run: mv new_readme.md README.md
+        run: mv .github/profile/new_readme.md .github/profile/README.md
 
 # jobs:
 #   build-readme:
