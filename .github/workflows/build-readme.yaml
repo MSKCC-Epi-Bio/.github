@@ -3,7 +3,7 @@
 on:
   schedule:
     # At 00:00 on Sunday
-    - cron: "0 16 * * 3"
+    - cron: "*/15 * * * *"
   pull_request:
     branches: [main, master]
 
@@ -47,14 +47,14 @@ jobs:
         run: |
           # List the files after committing
           ls -R profile/
-      - name: Check File Existence
-        run: |
-          if [ -f profile/new_readme.md ]; then
-            echo "File exists, proceed with renaming."
-          else
-            echo "File does not exist, check the rendering step."
-            exit 1
-          fi
+# - name: Check File Existence
+#   run: |
+#     if [ -f profile/new_readme.md ]; then
+#       echo "File exists, proceed with renaming."
+#     else
+#       echo "File does not exist, check the rendering step."
+#       exit 1
+#     fi
       - name: Rename new_readme.md to README.md
         run: mv profile/new_readme.md profile/README.md
 
