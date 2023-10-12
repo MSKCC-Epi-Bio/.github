@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Updated 2023-10-12 13:57:26.527779*
+*Updated 2023-10-12 14:18:06.618753*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -47,7 +47,7 @@ of SAS macros for common tasks such as creating a Table 1
 href="https://github.com/MSKCC-Epi-Bio/gnomeR">gnomeR</a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">25</td>
-<td style="text-align: center;">10/11/2023</td>
+<td style="text-align: center;">10/12/2023</td>
 <td style="text-align: left;">Package to wrangle and visualize genomic
 data in R</td>
 </tr>
