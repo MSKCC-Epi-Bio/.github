@@ -44,6 +44,8 @@ jobs:
       #     git push origin HEAD:refs/heads/master --force
       - name: Commit and push changes
         run: |
+          git config --global user.email "david.nemirovsky97@gmail.com"
+          git config --global user.name "david-nemirovsky"
           git add --all
           git commit -m "Update README.md"
           git push origin ${{ github.ref }}          
