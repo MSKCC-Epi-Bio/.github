@@ -48,7 +48,8 @@ jobs:
           git config --global user.name "david-nemirovsky"
           git add --all
           git commit -m "Update README.md"
-          git push origin ${{ github.ref }}          
+          git push origin HEAD:refs/heads/main --force
+          
       - name: Debugging - List Files After Commit
         run: |
           # List the files after committing
@@ -61,6 +62,7 @@ jobs:
 #       echo "File does not exist, check the rendering step."
 #       exit 1
 #     fi
+
       - name: Rename new_readme.md to README.md
         run: mv profile/new_readme.md profile/README.md
 
