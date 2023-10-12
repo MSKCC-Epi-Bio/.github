@@ -28,7 +28,7 @@ jobs:
           ls -R profile/
       
       - name: Build Readme
-        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "new_readme.md", output_dir = "profile")'
+        run: Rscript -e 'rmarkdown::render("profile/README.Rmd", output_format = "md_document", output_file = "README.md", output_dir = "profile")'
 
       - name: Debugging - List Files After Rendering
         run: |
@@ -63,8 +63,8 @@ jobs:
 #       exit 1
 #     fi
 
-      - name: Rename new_readme.md to README.md
-        run: mv profile/new_readme.md profile/README.md
+#      - name: Rename new_readme.md to README.md
+#        run: mv profile/new_readme.md profile/README.md
 
 # jobs:
 #   build-readme:
