@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Updated 2023-10-12 14:18:06.618753*
+*Updated 2023-10-12 17:54:34.356712*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -54,7 +54,7 @@ data in R</td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">24355</td>
+<td style="text-align: center;">24359</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">03/07/2022</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
@@ -63,7 +63,7 @@ href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">37997</td>
+<td style="text-align: center;">38001</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,7 +71,7 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">59672</td>
+<td style="text-align: center;">59826</td>
 <td style="text-align: center;">19</td>
 <td style="text-align: center;">07/15/2023</td>
 <td style="text-align: left;"></td>
