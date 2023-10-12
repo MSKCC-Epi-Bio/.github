@@ -37,8 +37,8 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --global user.email "ghau@example.com"
-          git config --global user.name "GitHub Actions User"
+          git config --global user.email "david.nemirovsky97@gmail.com"
+          git config --global user.name "david-nemirovsky"
           git add --all
           git commit -am "chronjob"
           git push origin HEAD:refs/heads/master --force
