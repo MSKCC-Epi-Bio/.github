@@ -100,7 +100,7 @@ df_repos_fin =
 
 # **MSKCC-Epi-Bio**
 
-*Updated `r as.character(Sys.time())`* 
+*Last Updated `r as.character(format(Sys.Date(), "%m/%d/%Y"))`* 
 
 This GitHub organization hosts code, presentations and other resources created by members of Memorial Sloan Kettering's Department of Epidemiology & Biostatistics.
 
