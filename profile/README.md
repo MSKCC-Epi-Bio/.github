@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Last Updated 10/15/2023*
+*Last Updated 10/22/2023*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -54,16 +54,16 @@ data in R</td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">24368</td>
+<td style="text-align: center;">24398</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">03/07/2022</td>
+<td style="text-align: center;">10/17/2023</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
 (PRO) Measures and Other Psychometric Instruments</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">38011</td>
+<td style="text-align: center;">37979</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,7 +71,7 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">60098</td>
+<td style="text-align: center;">59519</td>
 <td style="text-align: center;">19</td>
 <td style="text-align: center;">07/15/2023</td>
 <td style="text-align: left;"></td>
@@ -102,8 +102,8 @@ href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/dcurves">dcurves</a></td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">09/12/2023</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">10/21/2023</td>
 <td style="text-align: left;">Python package for Andrew Vickers’
 Decision Curve Analysis method to evaluate prediction models and
 diagnostic tests</td>
