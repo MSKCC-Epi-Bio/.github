@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Last Updated 03/17/2024*
+*Last Updated 03/24/2024*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -47,14 +47,14 @@ of SAS macros for common tasks such as creating a Table 1
 href="https://github.com/MSKCC-Epi-Bio/gnomeR">gnomeR</a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">26</td>
-<td style="text-align: center;">03/07/2024</td>
+<td style="text-align: center;">03/21/2024</td>
 <td style="text-align: left;">Package to wrangle and visualize genomic
 data in R</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">25867</td>
+<td style="text-align: center;">25928</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">10/17/2023</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
@@ -63,7 +63,7 @@ href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">39172</td>
+<td style="text-align: center;">39216</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,8 +71,8 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">170192</td>
-<td style="text-align: center;">19</td>
+<td style="text-align: center;">176114</td>
+<td style="text-align: center;">20</td>
 <td style="text-align: center;">10/30/2023</td>
 <td style="text-align: left;"></td>
 </tr>
