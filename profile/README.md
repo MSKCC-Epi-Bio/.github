@@ -204,6 +204,6 @@ href="https://github.com/MSKCC-Epi-Bio/Writing-Functions-with-the-tidyverse">Wri
 
 # **Contact**
 
-Please contact Jessica Lavery (<laveryj@mskcc.org>) and Daniel Sjoberg
-(<sjobergd@mskcc.org>) if you are interested in creating a repository or
+Please contact Jessica Lavery (<laveryj@mskcc.org>), Karissa Whiting (<whitingk@mskcc.org>), 
+and/or Emily Vertosick (<vertosie@mskcc.org>) if you are interested in creating a repository or
 transferring an existing repository to the organization.
