@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Last Updated 05/04/2025*
+*Last Updated 05/11/2025*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -54,7 +54,7 @@ data in R</td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">29446</td>
+<td style="text-align: center;">29523</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">10/17/2023</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
@@ -63,7 +63,7 @@ href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">41816</td>
+<td style="text-align: center;">41857</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,7 +71,7 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">249269</td>
+<td style="text-align: center;">250089</td>
 <td style="text-align: center;">25</td>
 <td style="text-align: center;">08/17/2024</td>
 <td style="text-align: left;"></td>
@@ -102,7 +102,7 @@ href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/dcurves">dcurves</a></td>
-<td style="text-align: center;">29</td>
+<td style="text-align: center;">31</td>
 <td style="text-align: center;">03/16/2025</td>
 <td style="text-align: left;">Python package for Andrew Vickers’
 Decision Curve Analysis method to evaluate prediction models and
