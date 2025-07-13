@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Last Updated 07/06/2025*
+*Last Updated 07/13/2025*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -54,7 +54,7 @@ data in R</td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">29989</td>
+<td style="text-align: center;">30078</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">10/17/2023</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
@@ -63,7 +63,7 @@ href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">42251</td>
+<td style="text-align: center;">42321</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,7 +71,7 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">256011</td>
+<td style="text-align: center;">256792</td>
 <td style="text-align: center;">25</td>
 <td style="text-align: center;">08/17/2024</td>
 <td style="text-align: left;"></td>
@@ -84,12 +84,6 @@ href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
 ## **Python Packages**
 
 <table>
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 76%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Package</th>
@@ -99,15 +93,6 @@ href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"><a
-href="https://github.com/MSKCC-Epi-Bio/dcurves">dcurves</a></td>
-<td style="text-align: center;">31</td>
-<td style="text-align: center;">05/22/2025</td>
-<td style="text-align: left;">Python package for Andrew Vickers’
-Decision Curve Analysis method to evaluate prediction models and
-diagnostic tests</td>
-</tr>
 </tbody>
 </table>
 
