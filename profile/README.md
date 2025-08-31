@@ -2,7 +2,7 @@
 
 # **MSKCC-Epi-Bio**
 
-*Last Updated 08/24/2025*
+*Last Updated 08/31/2025*
 
 This GitHub organization hosts code, presentations and other resources
 created by members of Memorial Sloan Kettering’s Department of
@@ -46,7 +46,7 @@ of SAS macros for common tasks such as creating a Table 1
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/gnomeR">gnomeR</a></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">27</td>
+<td style="text-align: center;">26</td>
 <td style="text-align: center;">10/15/2024</td>
 <td style="text-align: left;">Package to wrangle and visualize genomic
 data in R</td>
@@ -54,7 +54,7 @@ data in R</td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
-<td style="text-align: center;">30470</td>
+<td style="text-align: center;">30500</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">10/17/2023</td>
 <td style="text-align: left;">Tools to Score Patient-Reported Outcome
@@ -63,7 +63,7 @@ href="https://github.com/MSKCC-Epi-Bio/PROscorerTools">PROscorerTools</a></td>
 <tr class="odd">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
-<td style="text-align: center;">42675</td>
+<td style="text-align: center;">42697</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">04/28/2022</td>
 <td style="text-align: left;"></td>
@@ -71,8 +71,8 @@ href="https://github.com/MSKCC-Epi-Bio/SvyNom">SvyNom</a></td>
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/tidycmprsk">tidycmprsk</a></td>
-<td style="text-align: center;">261571</td>
-<td style="text-align: center;">26</td>
+<td style="text-align: center;">261926</td>
+<td style="text-align: center;">25</td>
 <td style="text-align: center;">08/17/2024</td>
 <td style="text-align: left;"></td>
 </tr>
@@ -178,7 +178,7 @@ href="https://github.com/MSKCC-Epi-Bio/Reproducibility-in-R-with-renv-and-templa
 <tr class="even">
 <td style="text-align: left;"><a
 href="https://github.com/MSKCC-Epi-Bio/Writing-Functions-with-the-tidyverse">Writing-Functions-with-the-tidyverse</a></td>
-<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
 <td style="text-align: center;">11/01/2022</td>
 <td style="text-align: left;"></td>
 </tr>
